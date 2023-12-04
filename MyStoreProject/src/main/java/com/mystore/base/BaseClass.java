@@ -54,7 +54,7 @@ public class BaseClass {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") +"\\Configuartion\\Config.properties");
+					System.getProperty("user.dir") +"//Configuartion//Config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
